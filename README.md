@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -22,11 +21,8 @@
 
         <link href="https://bishnulamsal.github.io/bishnulamsal/css/magnific-popup.css" rel="stylesheet">
 
-        <link href="https://bishnulamsal.github.io/bishnulamsal/css/templatemo-first-portfolio-style.css" rel="stylesheet">
-        
-
-</head>
-    
+        <link href="https://bishnulamsal.github.io/bishnulamsal/css/templatemo-first-portfolio-style.css" rel="stylesheet">     
+</head>    
     <body>
 
         <section class="preloader">
