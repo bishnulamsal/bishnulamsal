@@ -9,29 +9,28 @@
 <p align="center"> <a href="https://twitter.com/bplamsal" target="blank"><img src="https://img.shields.io/twitter/follow/bplamsal?logo=twitter&style=for-the-badge" alt="bplamsal" /></a> </p>
 <br>
   <p align="center">
+    - 🌱 I’m currently learning **Framework, CSS, HTML, Photoshop, Primire Pro, Figma** </p>
 
-- 🌱 I’m currently learning **Framework, CSS, HTML, Photoshop, Primire Pro, Figma**
-
-- 👯 I’m currently working on [GHARJAGGASANSAR](https://gharjaggasansar.com)
+<p align="center">- 👯 I’m currently working on [GHARJAGGASANSAR](https://gharjaggasansar.com)</p>
     
-- 👯 I’m looking to collaborate on [SARAFINDER](https://sarafinder.com)
+<p align="center">- 👯 I’m looking to collaborate on [SARAFINDER](https://sarafinder.com)</p>
 
-- 🤝 I’m looking for help with [SANGITAL](https://sangital.com.np)
+<p align="center">- 📝 I’m looking for help with [SANGITAL](https://sangital.com.np)</p>
 
-- 👨‍💻 All of my projects are available at [MY PORTFOLIO](https://bishnulamsal.github.io/bishnulamsal/)
+<p align="center">- 👨‍💻 All of my projects are available at [MY PORTFOLIO](https://bishnulamsal.github.io/bishnulamsal/)</p>
 
-- 📝 I regularly write articles on [MY WEBSITE](https://bishnulamsal.com.np)
+<p align="center">- 📝 I regularly write articles on [MY WEBSITE](https://bishnulamsal.com.np)</p>
 
-- 💬 Ask me about **CSS, HTML, Photoshop & Premier Pro**
+<p align="center">- 💬 Ask me about **CSS, HTML, Photoshop & Premier Pro** </p>
 
-- 📫 How to reach me **contact@bishnulamsal.com.np**
+<p align="center">- 📫 How to reach me **contact@bishnulamsal.com.np** </p>
 
-- 📄 Know about my experiences [MY EXPERIENCES](https://bishnulamsal.com.np)
+<p align="center">- 📄 Know about my experiences [MY EXPERIENCES](https://bishnulamsal.com.np)
     </p>
 <br>
-### Blogs posts
+<p align="center"> ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:END --> </p>
 <br>
 <h3 align="center">Connect with me:</h3>
 <p align="center">
@@ -51,9 +50,9 @@
 <h3 align="center">Support:</h3>
 <p align="center"><a href="https://www.buymeacoffee.com/bishnulamsal"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="bishnulamsal" /></a></p>
 <br/>
-<palign="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=bishnulamsal&show_icons=true&locale=en&layout=compact" alt="bishnulamsal" /></p>
+<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=bishnulamsal&show_icons=true&locale=en&layout=compact" alt="bishnulamsal" /></p>
 <br/>
-<palign="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=bishnulamsal&show_icons=true&locale=en" alt="bishnulamsal" /></p>
+<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=bishnulamsal&show_icons=true&locale=en" alt="bishnulamsal" /></p>
 <br/>
 
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bishnulamsal&" alt="bishnulamsal" /></p>
