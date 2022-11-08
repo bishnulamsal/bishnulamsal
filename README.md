@@ -12,7 +12,7 @@
 
 - 🌱 I’m currently learning **Framework, CSS, HTML, Photoshop, Primire Pro, Figma**
 
-- 👯 I’m looking to collaborate on [SARAFINDER](https://sarafinder.com)
+- 👯 I’m currently working on [GHARJAGGASANSAR](https://gharjaggasansar.com)
     
 - 👯 I’m looking to collaborate on [SARAFINDER](https://sarafinder.com)
 
