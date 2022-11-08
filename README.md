@@ -9,23 +9,38 @@
 <p align="center"> <a href="https://twitter.com/bplamsal" target="blank"><img src="https://img.shields.io/twitter/follow/bplamsal?logo=twitter&style=for-the-badge" alt="bplamsal" /></a> </p>
 <br>
   <p align="center">
-    - 🌱 I’m currently learning **Framework, CSS, HTML, Photoshop, Primire Pro, Figma** </p>
-
-<p align="center">- 👯 I’m currently working on [GHARJAGGASANSAR](https://gharjaggasansar.com)</p>
+    - 🌱 I’m currently learning **Framework, CSS, HTML, Photoshop, Primire Pro, Figma** 
+  </p>
+<p align="center">
+- 👯 I’m currently working on [GHARJAGGASANSAR](https://gharjaggasansar.com)
+  </p>
     
-<p align="center">- 👯 I’m looking to collaborate on [SARAFINDER](https://sarafinder.com)</p>
+<p align="center">
+ - 👀 I’m looking to collaborate on [SARAFINDER](https://sarafinder.com)
+  </p>
 
-<p align="center">- 📝 I’m looking for help with [SANGITAL](https://sangital.com.np)</p>
+<p align="center">
+  - 📝 I’m looking for help with [SANGITAL](https://sangital.com.np)
+  </p>
 
-<p align="center">- 👨‍💻 All of my projects are available at [MY PORTFOLIO](https://bishnulamsal.github.io/bishnulamsal/)</p>
+<p align="center">
+  - 👨‍💻 All of my projects are available at [MY PORTFOLIO](https://bishnulamsal.github.io/bishnulamsal/)
+  </p>
 
-<p align="center">- 📝 I regularly write articles on [MY WEBSITE](https://bishnulamsal.com.np)</p>
+<p align="center">
+  - 📝 I regularly write articles on [MY WEBSITE](https://bishnulamsal.com.np)
+  </p>
 
-<p align="center">- 💬 Ask me about **CSS, HTML, Photoshop & Premier Pro** </p>
+<p align="center">
+  - 💬 Ask me about **CSS, HTML, Photoshop & Premier Pro**
+  </p>
 
-<p align="center">- 📫 How to reach me **contact@bishnulamsal.com.np** </p>
+<p align="center">
+  - 📫 How to reach me **contact@bishnulamsal.com.np**
+  </p>
 
-<p align="center">- 📄 Know about my experiences [MY EXPERIENCES](https://bishnulamsal.com.np)
+<p align="center">
+  - 📄 Know about my experiences [MY EXPERIENCES](https://bishnulamsal.com.np)
     </p>
 <br>
 <p align="center"> ### Blogs posts
