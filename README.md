@@ -9,7 +9,7 @@
 <p align="center"> <a href="https://twitter.com/bplamsal" target="blank"><img src="https://img.shields.io/twitter/follow/bplamsal?logo=twitter&style=for-the-badge" alt="bplamsal" /></a> </p>
 <br>
   <p align="center">
-- 🔭 I’m currently working on [GHARJAGGASANSAR](https://gharjaggasansar.com)
+- 👯 I’m looking to collaborate on [GHARJAGGASANSAR](https://gharjaggasansar.com)
 
 - 🌱 I’m currently learning **Framework, CSS, HTML, Photoshop, Primire Pro, Figma**
 
