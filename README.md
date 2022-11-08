@@ -8,6 +8,7 @@
 <br>
 <p align="center"> <a href="https://twitter.com/bplamsal" target="blank"><img src="https://img.shields.io/twitter/follow/bplamsal?logo=twitter&style=for-the-badge" alt="bplamsal" /></a> </p>
 <br>
+  <p align="center">
 - 🔭 I’m currently working on [GHARJAGGASANSAR](https://gharjaggasansar.com)
 
 - 🌱 I’m currently learning **Framework, CSS, HTML, Photoshop, Primire Pro, Figma**
@@ -25,6 +26,7 @@
 - 📫 How to reach me **contact@bishnulamsal.com.np**
 
 - 📄 Know about my experiences [MY EXPERIENCES](https://bishnulamsal.com.np)
+    </p>
 <br>
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
@@ -53,5 +55,5 @@
 <palign="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=bishnulamsal&show_icons=true&locale=en" alt="bishnulamsal" /></p>
 <br/>
 
-<palign="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bishnulamsal&" alt="bishnulamsal" /></p>
+<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bishnulamsal&" alt="bishnulamsal" /></p>
 </body>
