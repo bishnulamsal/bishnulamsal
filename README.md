@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Bishnu Lamsal</h1>
+<body align="center"><h1 align="center">Hi 👋, I'm Bishnu Lamsal</h1>
 <h3 align="center">UI/UX Engineer from Nepal</h3>
 <br>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=bishnulamsal&label=Profile%20views&color=0e75b6&style=flat" alt="bishnulamsal" /> </p>
@@ -54,3 +54,4 @@
 <br/>
 
 <palign="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bishnulamsal&" alt="bishnulamsal" /></p>
+</body>
