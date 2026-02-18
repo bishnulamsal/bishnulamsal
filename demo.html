@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NP Domain Cover Letter Generator</title>
+    <!-- html2canvas for "Save as Image" feature -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+
+        /* Responsive A4 Logic */
+        #letter-paper {
+            width: 210mm;
+            height: 297mm;
+            padding: 20mm; 
+            margin: auto;
+            background-color: white; 
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            font-family: "Times New Roman", Times, serif;
+            line-height: 1.4; 
+            color: black;
+            font-size: 12pt;
+            position: relative;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-sizing: border-box;
+            flex-shrink: 0;
+        }
+
+        /* Mobile Scale Down for Preview Only */
+        @media (max-width: 850px) {
+            #preview-outer {
+                transform: scale(0.45);
+                transform-origin: top center;
+                height: 140mm;
+            }
+            #preview-container {
+                overflow: hidden;
+                justify-content: center;
+                padding: 0;
+            }
+        }
+        @media (min-width: 851px) and (max-width: 1024px) {
+            #preview-outer {
+                transform: scale(0.7);
+                transform-origin: top center;
+                height: 220mm;
+            }
+        }
+
+        #letter-paper.has-letterhead {
+            background-color: transparent;
+            box-shadow: none;
+        }
+
+        .overlay-asset {
+            position: relative;
+            z-index: 20;
+            pointer-events: none;
+        }
+
+        #stampImage {
+            position: absolute;
+            top: -20px;
+            left: 40px;
+            z-index: 30;
+            mix-blend-mode: multiply; 
+        }
+
+        /* PRINT STYLES: Strict A4 */
+        @media print {
+            @page {
+                size: A4;
+                margin: 0;
+            }
+            body {
+                background: white !important;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            .no-print {
+                display: none !important;
+            }
+            #preview-container {
+                padding: 0 !important;
+                background: white !important;
+                overflow: visible !important;
+            }
+            #preview-outer {
+                transform: none !important;
+                height: auto !important;
+            }
+            #letter-paper {
+                box-shadow: none !important;
+                margin: 0 !important;
+                width: 210mm !important;
+                height: 297mm !important;
+                position: static !important;
+                visibility: visible !important;
+            }
+        }
+
+        .input-group label {
+            display: block;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #374151;
+            margin-bottom: 0.15rem;
+        }
+
+        .input-group input, .input-group select {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #d1d5db;
+            border-radius: 0.375rem;
+            margin-bottom: 0.75rem;
+            outline: none;
+        }
+
+        .hidden { display: none; }
+    </style>
+</head>
+<body class="p-2 md:p-6">
+
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-6">
+        
+        <!-- Form Section -->
+        <div class="w-full lg:w-1/3 bg-white p-5 rounded-xl shadow-lg no-print overflow-y-auto lg:max-h-[95vh]">
+            <div class="flex justify-between items-center mb-3 border-b pb-2">
+                <h2 class="text-xl font-bold">Details</h2>
+                <button onclick="clearForm()" class="text-xs bg-red-50 hover:bg-red-100 text-red-600 px-3 py-1 rounded border border-red-200 font-semibold transition-colors">
+                    Clear
+                </button>
+            </div>
+
+            <div class="input-group">
+                <label>Purpose</label>
+                <select id="purpose" onchange="toggleBusinessFields()">
+                    <option value="Personal">Personal</option>
+                    <option value="Business">Business/Organization</option>
+                </select>
+
+                <div id="businessFields" class="hidden space-y-3 border-l-4 border-blue-500 pl-4 mb-3 bg-blue-50 py-2 pr-2 rounded">
+                    <div>
+                        <label>Company Name</label>
+                        <input type="text" id="companyName" placeholder="Acme Corp Pvt. Ltd.">
+                    </div>
+                    <div>
+                        <label>Your Designation</label>
+                        <input type="text" id="userPost" placeholder="Managing Director">
+                    </div>
+                    <div>
+                        <label>Letterhead Image</label>
+                        <input type="file" id="letterheadUpload" accept="image/*" class="text-xs">
+                    </div>
+                </div>
+
+                <label>Letter Date</label>
+                <input type="date" id="letterDate">
+
+                <div class="border-t pt-3 mt-1">
+                    <h3 class="font-bold text-blue-600 mb-1 text-xs uppercase tracking-wider">Domain</h3>
+                    <input type="text" id="domainName" placeholder="yourname.com.np">
+                    <input type="text" id="ns1" placeholder="Nameserver 1">
+                    <input type="text" id="ns2" placeholder="Nameserver 2">
+                </div>
+
+                <div class="border-t pt-3 mt-1">
+                    <h3 class="font-bold text-blue-600 mb-1 text-xs uppercase tracking-wider">Requester</h3>
+                    <input type="text" id="userName" placeholder="Your Full Name">
+                    <input type="text" id="userAddress" placeholder="Full Address">
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-1">
+                        <div>
+                            <label class="text-xs">Signature</label>
+                            <input type="file" id="sigUpload" accept="image/*" class="text-xs">
+                        </div>
+                        <div id="stampInputGroup" class="hidden">
+                            <label class="text-xs">Stamp</label>
+                            <input type="file" id="stampUpload" accept="image/*" class="text-xs">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-6 flex flex-col gap-2">
+                <button onclick="window.print()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg shadow transition-all active:scale-95">
+                    Download PDF
+                </button>
+                <button onclick="downloadAsImage()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 rounded-lg shadow transition-all active:scale-95">
+                    Download Image
+                </button>
+            </div>
+        </div>
+
+        <!-- Preview Section -->
+        <div id="preview-container" class="w-full lg:w-2/3 overflow-x-hidden bg-gray-500 rounded-xl flex items-start justify-center shadow-inner no-print p-4 md:p-8">
+            <div id="preview-outer">
+                <div id="letter-paper">
+                    <div id="letter-content" class="relative z-10 h-full flex flex-col">
+                        <div class="text-right mb-6">
+                            <span id="displayDate" class="inline-block pt-2"></span>
+                        </div>
+                        
+                        <div class="mb-4">
+                            To,<br>
+                            The Hostmaster,<br>
+                            Mercantile Communication Pvt. Ltd.<br>
+                            Durbar Marg, Kathmandu
+                        </div>
+
+                        <div class="font-bold mb-4">Subject: <span id="displaySubject">NP Domain Registration</span></div>
+
+                        <div class="mb-2">Dear Sir/Madam,</div>
+
+                        <p class="mb-3 text-justify">
+                            I am writing this letter to request you to kindly register <strong id="displayDomainHeader">_______</strong> domain for <span id="displayEntityRef">me</span>. 
+                            <span id="displayIntroSuffix">I have provided my personal details below, and I will attach a scanned copy of my citizenship with this letter.</span>
+                        </p>
+
+                        <div class="mb-4">
+                            <strong>Domain Details:</strong>
+                            <ul class="list-none ml-6 mt-1">
+                                <li>• Domain Name: <span id="displayDomainBody" class="font-bold">_______</span></li>
+                                <li>• Primary Name Server: <span id="displayNs1" class="font-bold italic">_______</span></li>
+                                <li>• Secondary Name Server: <span id="displayNs2" class="font-bold italic">_______</span></li>
+                            </ul>
+                        </div>
+
+                        <p class="mb-4">
+                            I would be very grateful if you approve <span id="displayPossessive">my</span> domain registration request. Thank you for your consideration.
+                        </p>
+
+                        <div class="mb-4">
+                            <strong>Attachments:</strong><br>
+                            <span id="displayAttachment" class="ml-2">• Scanned copy of Citizenship</span>
+                        </div>
+
+                        <div class="relative min-h-[120px] mt-auto">
+                            <p class="mb-2">Sincerely,</p>
+                            
+                            <div class="relative w-max mb-2">
+                                <div id="sigWrapper" class="hidden overlay-asset">
+                                    <img id="sigImage" src="" alt="Signature" class="max-h-16 max-w-[140px]">
+                                </div>
+                                <div id="sigPlaceholder" class="h-10 w-24 flex items-center border border-dashed border-gray-300 px-2 text-xs text-gray-400 italic">
+                                    [Signature]
+                                </div>
+                                
+                                <div id="stampWrapper" class="hidden">
+                                    <img id="stampImage" src="" alt="Stamp" class="max-h-24 max-w-[140px] opacity-90">
+                                </div>
+                            </div>
+
+                            <div class="font-bold text-lg leading-tight" id="displayUserName">_______</div>
+                            <div id="displayPost" class="hidden italic text-gray-700 leading-tight">_______</div>
+                            <div id="displayCompanyName" class="hidden font-bold leading-tight">_______</div>
+                            <div id="displayUserAddress" class="text-sm">_______</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const fieldIds = ['purpose', 'letterDate', 'domainName', 'ns1', 'ns2', 'userName', 'userAddress', 'companyName', 'userPost'];
+        
+        // Auto-set today's date on load
+        window.addEventListener('DOMContentLoaded', () => {
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById('letterDate').value = today;
+            updatePreview();
+        });
+
+        function toggleBusinessFields() {
+            const isBusiness = document.getElementById('purpose').value === 'Business';
+            const bizFields = document.getElementById('businessFields');
+            const stampInput = document.getElementById('stampInputGroup');
+            const displayPost = document.getElementById('displayPost');
+            const displayCompany = document.getElementById('displayCompanyName');
+
+            if (isBusiness) {
+                bizFields.classList.remove('hidden');
+                stampInput.classList.remove('hidden');
+                displayPost.classList.remove('hidden');
+                displayCompany.classList.remove('hidden');
+            } else {
+                bizFields.classList.add('hidden');
+                stampInput.classList.add('hidden');
+                displayPost.classList.add('hidden');
+                displayCompany.classList.add('hidden');
+            }
+            updatePreview();
+        }
+
+        function updatePreview() {
+            const vals = {};
+            fieldIds.forEach(id => vals[id] = document.getElementById(id).value);
+            const isBusiness = vals.purpose === 'Business';
+
+            // Formatting Date for Display
+            if (vals.letterDate) {
+                const dateParts = vals.letterDate.split('-');
+                // Create date using local time to avoid timezone offset shifts
+                const dateObj = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
+                const options = { year: 'numeric', month: 'long', day: 'numeric' };
+                document.getElementById('displayDate').textContent = dateObj.toLocaleDateString('en-US', options);
+            } else {
+                document.getElementById('displayDate').textContent = "_______";
+            }
+
+            document.getElementById('displaySubject').textContent = isBusiness ? 'Company Domain Registration' : 'NP Domain Registration';
+            document.getElementById('displayEntityRef').textContent = isBusiness ? 'our organization' : 'me';
+            document.getElementById('displayPossessive').textContent = isBusiness ? 'our' : 'my';
+            
+            document.getElementById('displayIntroSuffix').innerHTML = isBusiness 
+                ? `We have provided the organization's details below, and we will attach the registered company documents with this letter.`
+                : `I have provided my personal details below, and I will attach a scanned copy of my citizenship with this letter.`;
+
+            document.getElementById('displayAttachment').textContent = isBusiness 
+                ? '• Company Registration Certificate & VAT/PAN' 
+                : '• Scanned copy of Citizenship';
+
+            document.getElementById('displayDomainHeader').textContent = vals.domainName || "_______";
+            document.getElementById('displayDomainBody').textContent = vals.domainName || "_______";
+            document.getElementById('displayNs1').textContent = vals.ns1 || "_______";
+            document.getElementById('displayNs2').textContent = vals.ns2 || "_______";
+            document.getElementById('displayUserName').textContent = vals.userName || "_______";
+            document.getElementById('displayUserAddress').textContent = vals.userAddress || "_______";
+            document.getElementById('displayPost').textContent = vals.userPost || "_______";
+            document.getElementById('displayCompanyName').textContent = vals.companyName || "_______";
+        }
+
+        function handleImageUpload(inputId, targetImgId, wrapperId, placeholderId) {
+            const el = document.getElementById(inputId);
+            if (!el) return;
+            el.addEventListener('change', function(e) {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(event) {
+                        if (targetImgId) {
+                            const img = document.getElementById(targetImgId);
+                            img.src = event.target.result;
+                        }
+                        if(wrapperId) document.getElementById(wrapperId).classList.remove('hidden');
+                        if(placeholderId) document.getElementById(placeholderId).classList.add('hidden');
+                        
+                        if (inputId === 'letterheadUpload') {
+                            const paper = document.getElementById('letter-paper');
+                            paper.style.backgroundImage = `url(${event.target.result})`;
+                            paper.classList.add('has-letterhead');
+                        }
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+        }
+
+        handleImageUpload('sigUpload', 'sigImage', 'sigWrapper', 'sigPlaceholder');
+        handleImageUpload('stampUpload', 'stampImage', 'stampWrapper', null);
+        handleImageUpload('letterheadUpload', null, null, null);
+
+        function clearForm() {
+            fieldIds.forEach(id => {
+                const el = document.getElementById(id);
+                if (id === 'purpose') el.value = 'Personal';
+                else if (id === 'letterDate') el.value = new Date().toISOString().split('T')[0];
+                else el.value = '';
+            });
+
+            document.getElementById('sigImage').src = '';
+            document.getElementById('stampImage').src = '';
+            const paper = document.getElementById('letter-paper');
+            paper.style.backgroundImage = 'none';
+            paper.classList.remove('has-letterhead');
+            
+            document.getElementById('sigWrapper').classList.add('hidden');
+            document.getElementById('sigPlaceholder').classList.remove('hidden');
+            document.getElementById('stampWrapper').classList.add('hidden');
+            
+            ['sigUpload', 'stampUpload', 'letterheadUpload'].forEach(id => {
+                const input = document.getElementById(id);
+                if (input) input.value = '';
+            });
+            
+            toggleBusinessFields();
+        }
+
+        function downloadAsImage() {
+            const letter = document.getElementById('letter-paper');
+            const originalShadow = letter.style.boxShadow;
+            letter.style.boxShadow = 'none';
+
+            html2canvas(letter, {
+                scale: 3, 
+                useCORS: true,
+                allowTaint: true,
+                backgroundColor: letter.classList.contains('has-letterhead') ? null : '#ffffff',
+                width: 793.7, 
+                height: 1122.5 
+            }).then(canvas => {
+                const link = document.createElement('a');
+                const name = document.getElementById('domainName').value || 'np-domain-letter';
+                link.download = `${name.replace(/\./g, '-')}.png`;
+                link.href = canvas.toDataURL('image/png', 1.0);
+                link.click();
+                letter.style.boxShadow = originalShadow;
+            });
+        }
+
+        fieldIds.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.addEventListener('input', updatePreview);
+        });
+    </script>
+</body>
+</html>
