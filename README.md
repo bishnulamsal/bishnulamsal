@@ -6,7 +6,7 @@
 <!-- Profile Stats & Trophies -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=bishnulamsal&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="bishnulamsal" />
-  <img src="https://github-profile-trophy.vercel.app/?username=bishnulamsal&theme=radical&row=1&column=5" alt="bishnulamsal" />
+  
 </p>
 
 ---
@@ -32,7 +32,7 @@
 
 ### 📈 GitHub Metrics
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bishnulamsal&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="Bishnu's Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=bishnulamsal&show_icons=true&theme=radical&include_all_commits=true&count_private=true]" alt="Bishnu's Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bishnulamsal&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
