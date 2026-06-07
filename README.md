@@ -32,8 +32,11 @@
 
 ### 📈 GitHub Metrics
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bishnulamsal&show_icons=true&theme=radical&include_all_commits=true&count_private=true]" alt="Bishnu's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bishnulamsal&layout=compact&theme=radical" alt="Top Languages" />
+
+<img src="https://komarev.com/ghpvc/?username=bishnulamsal&label=Profile%20views&color=0e75b6&style=flat" alt="bishnulamsal" />
+<br>
+<img src="https://github-profile-trophy-fork-two.vercel.app/?username=bishnulamsal" alt="bishnulamsal" />
+  
 </p>
 
 <p align="center">
