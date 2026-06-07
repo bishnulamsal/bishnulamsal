@@ -11,7 +11,7 @@
 
 
 <br>
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="[https://github-profile-trophy.vercel.app/?username=bishnulamsal]([https://github-profile-trophy-fork-two.vercel.app/?username=bishnulamsal)](https://github-profile-trophy-fork-two.vercel.app/?username=bishnulamsal)" alt="bishnulamsal" /></a> </p>
+<p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=bishnulamsal"" alt="bishnulamsal" /> </p>
 <br>
 <p align="center"> <a href="https://twitter.com/bplamsal" target="blank"><img src="https://img.shields.io/twitter/follow/bplamsal?logo=twitter&style=for-the-badge" alt="bplamsal" /></a> </p>
 <br>
