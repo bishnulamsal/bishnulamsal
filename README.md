@@ -2,14 +2,14 @@
 <h3 align="center">UI/UX Engineer from Nepal</h3>
 <br>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=bishnulamsal&label=Profile%20views&color=0e75b6&style=flat" alt="bishnulamsal" /> </p>
-<p align="center"> 
+<div align="center"> 
 [![stargazers](https://img.shields.io/github/stars/ryo-ma/github-profile-trophy)](https://github.com/bishnulamsal/github-profile-trophy/stargazers)
 [![forks](https://img.shields.io/github/forks/ryo-ma/github-profile-trophy)](https://github.com/bishnulamsal/github-profile-trophy/network/members)
 [![issues](https://img.shields.io/github/issues/ryo-ma/github-profile-trophy)](https://github.com/bishnulamsal/github-profile-trophy/issues)
 [![license](https://img.shields.io/github/license/ryo-ma/github-profile-trophy)](https://github.com/bishnulamsal/github-profile-trophy/blob/master/LICENSE)
 [![share](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy)](https://twitter.com/intent/tweet?text=Add%20dynamically%20generated%20GitHub%20Trophy%20on%20your%20readme%0D%0A&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy)
 
-</p>
+</div>
 <br>
 <p align="center"> <img src="https://github-profile-trophy-fork-two.vercel.app/?username=bishnulamsal" alt="bishnulamsal" /> </p>
 <br>
