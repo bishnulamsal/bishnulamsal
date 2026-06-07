@@ -1,3 +1,60 @@
+# Hi there, I'm Bishnu! 👋
+
+<!-- A short, punchy intro line about what you do -->
+I'm a passionate developer focused on building impactful solutions and continuously learning new technologies.
+
+---
+
+### 💻 About Me
+
+- 🚀 Currently working on ...
+- 🌱 Learning more about ...
+- 👯 Looking to collaborate on ...
+- 💬 Ask me about ...
+- ⚡ Fun fact: ...
+
+---
+
+### 🛠️ Tech Stack & Tools
+
+<!-- You can replace or add badges here. Format: https://img.shields.io/badge/-Name-color?style=flat-square&logo=logoName -->
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+---
+
+### 📊 GitHub Metrics
+
+<!-- These cards automatically fetch live data from your bishnulamsal account -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=bishnulamsal&show_icons=true&theme=radical&rank_icon=github" alt="Bishnu's GitHub Stats" height="195px" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bishnulamsal&layout=compact&theme=radical" alt="Bishnu's Top Languages" height="195px" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bishnulamsal&theme=radical" alt="Bishnu's GitHub Streak" />
+</p>
+
+---
+
+### 🤝 Connect with Me
+
+<p align="left">
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+---
+<p align="center">😊 Thank you for visiting my profile! Feel free to drop a ⭐ on any repository you find useful.</p>
+
+
+
 <body align="center"><h1 align="center">Hi 👋, I'm Bishnu Lamsal</h1>
 <h3 align="center">UI/UX Engineer from Nepal</h3>
 <br>
