@@ -1,13 +1,17 @@
 <div align="center">
 
-<!-- Animated typing header -->
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=32&duration=3000&pause=1000&color=0E75B6&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Bishnu+Lamsal+%F0%9F%91%8B;UI%2FUX+Engineer+%E2%9C%A8;Creative+Developer+%F0%9F%8E%A8;Design-Driven+Problem+Solver" alt="Typing SVG" />
+<!-- Wave banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:6dd5fa&height=200&section=header&text=Bishnu%20Lamsal&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=UI/UX%20Engineer%20%7C%20Creative%20Developer&descAlignY=55&descSize=18" alt="header banner" />
+
+<!-- Animated typing -->
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=26&duration=3000&pause=1000&color=0E75B6&center=true&vCenter=true&width=650&lines=Designing+experiences+that+feel+right;Turning+ideas+into+clean+interfaces;Figma+%E2%9E%9C+Code+%E2%9E%9C+Launch;Always+learning%2C+always+building" alt="Typing SVG" />
 
 <br>
 
 <img src="https://komarev.com/ghpvc/?username=bishnulamsal&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="profile views" />
 <img src="https://img.shields.io/badge/UI%2FUX-Engineer-0e75b6?style=for-the-badge&logo=figma&logoColor=white" alt="role badge" />
 <img src="https://img.shields.io/badge/Based%20in-Nepal-0e75b6?style=for-the-badge&logo=googlemaps&logoColor=white" alt="location badge" />
+<img src="https://img.shields.io/badge/Status-Open%20to%20Collab-2ea44f?style=for-the-badge&logo=handshake&logoColor=white" alt="status badge" />
 
 </div>
 
@@ -17,7 +21,7 @@
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="58%" valign="top">
 
 ```yaml
 name: Bishnu Lamsal
@@ -27,13 +31,13 @@ currently_building: GHARJAGGASANSAR
 open_to_collab: SARAFINDER
 seeking_help_on: SANGITAL
 ask_me_about: [UI/UX Design, Photoshop, Video Editing]
-fun_fact: "Code is poetry, design is the soul."
+philosophy: "Code is poetry, design is the soul."
 ```
 
 </td>
-<td width="40%" valign="top" align="center">
+<td width="42%" valign="top" align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=16&duration=2500&pause=800&color=808080&center=true&vCenter=true&width=280&lines=Designing+pixel-perfect+UI;Building+with+care+%26+detail;Always+shipping+something+new" alt="side typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=15&duration=2500&pause=800&color=808080&center=true&vCenter=true&width=290&lines=Designing+pixel-perfect+UI;Building+with+care+%26+detail;Always+shipping+something+new;One+more+iteration+never+hurts" alt="side typing" />
 
 </td>
 </tr>
@@ -41,15 +45,74 @@ fun_fact: "Code is poetry, design is the soul."
 
 <br>
 
-## 🚀 Currently
+## ⚡ Quick Facts
 
-| | |
-|---|---|
-| 🌱 **Learning** | Frameworks, CSS, HTML, Photoshop, Premiere Pro, Figma |
-| 👯 **Working on** | [GHARJAGGASANSAR](https://gharjaggasansar.com) |
-| 👀 **Collaborating on** | [SARAFINDER](https://sarafinder.com) |
-| 📝 **Needs help with** | [SANGITAL](https://sangital.com.np) |
-| 💬 **Ask me about** | UI/UX Design, Photoshop & Video Editing |
+<table>
+<tr>
+<td>
+
+🌱 **Learning**
+Frameworks, CSS, HTML, Photoshop, Premiere Pro, Figma
+
+</td>
+<td>
+
+👯 **Building**
+[GHARJAGGASANSAR](https://gharjaggasansar.com)
+
+</td>
+<td>
+
+👀 **Collaborating on**
+[SARAFINDER](https://sarafinder.com)
+
+</td>
+</tr>
+<tr>
+<td>
+
+📝 **Needs help with**
+[SANGITAL](https://sangital.com.np)
+
+</td>
+<td>
+
+💬 **Ask me about**
+UI/UX, Photoshop, Video Editing
+
+</td>
+<td>
+
+☕ **Fuel of choice**
+Coffee + good typography
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## 🎯 Featured Projects
+
+<table>
+<tr>
+<td width="33%">
+<h3 align="center">🏠 GharJaggaSansar</h3>
+<p align="center">Real estate platform — property listings made simple and searchable.</p>
+<p align="center"><a href="https://gharjaggasansar.com"><img src="https://img.shields.io/badge/Visit-Live%20Site-0e75b6?style=flat-square&logo=googlechrome&logoColor=white" /></a></p>
+</td>
+<td width="33%">
+<h3 align="center">💱 SaraFinder</h3>
+<p align="center">Currency & rate finder platform — open to collaborators.</p>
+<p align="center"><a href="https://sarafinder.com"><img src="https://img.shields.io/badge/Visit-Live%20Site-0e75b6?style=flat-square&logo=googlechrome&logoColor=white" /></a></p>
+</td>
+<td width="33%">
+<h3 align="center">🎶 Sangital</h3>
+<p align="center">Music-focused platform — actively looking for contributors.</p>
+<p align="center"><a href="https://sangital.com.np"><img src="https://img.shields.io/badge/Visit-Live%20Site-0e75b6?style=flat-square&logo=googlechrome&logoColor=white" /></a></p>
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -61,6 +124,23 @@ fun_fact: "Code is poetry, design is the soul."
 
 <br>
 
+**Design & Creative**
+
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
+![Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white)
+![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white)
+
+**Development**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+<br>
+
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -68,13 +148,17 @@ fun_fact: "Code is poetry, design is the soul."
 <img height="165em" src="https://github-readme-stats.vercel.app/api?username=bishnulamsal&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="github stats" />
 <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bishnulamsal&layout=compact&theme=radical&hide_border=true" alt="top languages" />
 
-<br>
+<br><br>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=bishnulamsal&theme=radical&hide_border=true&background=0D1117" alt="GitHub streak" />
 
 <br><br>
 
 <img src="https://github-profile-trophy-fork-two.vercel.app/?username=bishnulamsal&theme=radical&no-frame=true&margin-w=8" alt="trophies" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bishnulamsal&theme=react-dark&hide_border=true&area=true" alt="activity graph" />
 
 </div>
 
@@ -86,7 +170,15 @@ fun_fact: "Code is poetry, design is the soul."
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </div>
 
-> 💡 To activate the snake animation on your own profile, add the [`platane/snk`](https://github.com/Platane/snk) GitHub Action to this repo — it generates the file automatically on a schedule.
+> 💡 To activate the animated snake on your own profile, add the [`platane/snk`](https://github.com/Platane/snk) GitHub Action to this repo — it regenerates this SVG on a schedule automatically.
+
+<br>
+
+## 🏆 GitHub Achievements
+
+<div align="center">
+<img src="https://github-profile-trophy-fork-two.vercel.app/?username=bishnulamsal&theme=onedark&no-frame=true&column=7&margin-w=10&margin-h=10" alt="achievements" />
+</div>
 
 <br>
 
@@ -115,10 +207,10 @@ fun_fact: "Code is poetry, design is the soul."
 
 <div align="center">
 
----
-
 *"Code is poetry, design is the soul."*
 
 <img src="https://komarev.com/ghpvc/?username=bishnulamsal&label=Thanks%20for%20visiting&color=0e75b6&style=flat-square" alt="thanks for visiting" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6dd5fa,100:0e75b6&height=100&section=footer" alt="footer wave" />
 
 </div>
