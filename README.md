@@ -165,7 +165,7 @@ Coffee + good typography
 ## 🏆 GitHub Achievements
 
 <div align="center">
-<img src="https://github-profile-trophy-fork-two.vercel.app/?username=bishnulamsal&theme=onedark&no-frame=true&column=7&margin-w=10&margin-h=10" alt="achievements" />
+<img src="https://skillicons.dev/icons?i=html,css,js,figma,photoshop,premiere,mysql,docker&theme=dark" alt="tech stack" />
 </div>
 
 <br>
