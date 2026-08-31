@@ -145,20 +145,8 @@ Coffee + good typography
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=bishnulamsal&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="github stats" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bishnulamsal&layout=compact&theme=radical&hide_border=true" alt="top languages" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=bishnulamsal&theme=radical&hide_border=true&background=fff" alt="GitHub streak" />
 
-<br><br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=bishnulamsal&theme=radical&hide_border=true&background=0D1117" alt="GitHub streak" />
-
-<br><br>
-
-<img src="https://github-profile-trophy-fork-two.vercel.app/?username=bishnulamsal&theme=radical&no-frame=true&margin-w=8" alt="trophies" />
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bishnulamsal&theme=react-dark&hide_border=true&area=true" alt="activity graph" />
 
 </div>
 
